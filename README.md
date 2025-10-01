@@ -3,7 +3,7 @@
 This repository contains the complete implementation of a 5-stage pipelined RISC-V (RV32I) CPU core, designed using **TL-Verilog** and simulated in the **Makerchip IDE**.  
 This project was developed as a hands-on exercise to understand the fundamentals of computer architecture, starting from a basic single-cycle design and evolving it into a fully pipelined processor.
 
-👉 Link to the [Single-Cycle 32-bit RISC-V CPU Core Repository](https://github.com/Sandeep271958/RISC-V-CPU-Core)
+Link to the [Single-Cycle 32-bit RISC-V CPU Core Repository](https://github.com/Sandeep271958/RISC-V-CPU-Core)
 
 ---
 
@@ -113,46 +113,22 @@ To try it yourself:
 - Target Hardware: Nexys A7 FPGA Board (or similar)
 
 ### FPGA Implementation Results
-The CPU was successfully synthesized for a Xilinx Nexys A7 FPGA. The post-synthesis performance and resource utilization estimates are as follows:
+The CPU was successfully synthesized for a Xilinx Nexys A7 FPGA.  
+The post-synthesis performance and resource utilization estimates are:  
 
-- Maximum Clock Frequency: ~125 MHz
+- **Maximum Clock Frequency:** ~125 MHz  
+- **Slice LUTs:** ~1,300  
+- **Flip-Flops:** ~650  
 
-- Slice LUTs: ~1,300
-
-- Flip-Flops: ~650
 
 ## Performance
-'''table
-Metric
 
-Pipelined Core
-
-Single-Cycle Core
-
-Cycles for Test Code
-
-62 cycles
-
-34 cycles
-
-Clock Period
-
-~8 ns
-
-~21 ns
-
-Clock Frequency
-
-~125 MHz
-
-~47 MHz
-
-Total Time Taken
-
-496 ns
-
-714 ns
-'''
+| Metric                | Pipelined Core | Single-Cycle Core |
+|-----------------------|----------------|-------------------|
+| Cycles (Test Program) | 62 cycles      | 34 cycles         |
+| Clock Period          | ~8 ns          | ~21 ns            |
+| Clock Frequency       | ~125 MHz       | ~47 MHz           |
+| Total Time Taken      | 496 ns         | 714 ns            |
 
 - Speedup Obtained: ~1.44x
 
