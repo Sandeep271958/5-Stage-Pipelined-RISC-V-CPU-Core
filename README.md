@@ -3,8 +3,9 @@
 This repository contains the complete implementation of a 5-stage pipelined RISC-V (RV32I) CPU core, designed using **TL-Verilog** and simulated in the **Makerchip IDE**.  
 This project was developed as a hands-on exercise to understand the fundamentals of computer architecture, starting from a basic single-cycle design and evolving it into a fully pipelined processor.
 
-Link to the [Single-Cycle 32-bit RISC-V CPU Core Repository](https://github.com/Sandeep271958/RISC-V-CPU-Core)
-Link to the [Simulation](https://www.makerchip.com/sandbox/0ADf9hZK/0j2hYYy#) on **Makerchip IDE**.
+- Link to the [Single-Cycle 32-bit RISC-V CPU Core Repository](https://github.com/Sandeep271958/RISC-V-CPU-Core)
+  
+- Link to the [Simulation](https://www.makerchip.com/sandbox/0ADf9hZK/0j2hYYy#) on **Makerchip IDE**.
 
 ---
 
